@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
       bucket = "terraform-complete-course"
-      key = "terraform/"
+      key = "terraform/terraform_state_file"
   }
 }
